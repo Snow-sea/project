@@ -1,0 +1,258 @@
+body,ul,h2,p,h3,li{
+    margin: 0;
+    padding: 0；
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background:rgba(0, 0, 0, 0.1);
+}
+.container{
+   margin: 0 auto;
+    width: 1000px;
+}
+.navbar-header{
+    font-weight: bold;
+    float: left;
+    line-height: 50px;
+    height: 50;
+    color: gray;
+}
+.navbar-nav{
+    float: left;
+}
+li{
+    list-style: none;
+    float: left;
+}
+
+.navbar-nav li a{
+    text-decoration: none;
+    padding: 15px;
+    line-height: 50px;
+    height: 50px;
+    color: gray;
+}
+.num{
+    float: right;
+    height:50px;
+    line-height: 50px;
+  
+}
+.num a{
+    text-decoration: none;
+    color: gray;
+}
+.clear{
+     zoom:1;
+     /*为了兼容IE7*/
+}
+.clear::after{
+    content: "";
+     display:block;
+    clear: both;
+}
+.doc-head{
+    width: 100%;
+    height: 570px;
+    background-color: #563d7c;
+    text-align: center;
+    color:white;
+
+}
+.doc-head span{
+    font-size: 108px;
+    border: 1px solid white;
+    width: 144px;
+    height:144px;
+    display:inline-block;
+    margin-top: 80px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius: 10px;
+}
+
+.doc-head .title{
+    width: 720px;
+    margin:0 auto;
+    margin-top:30px;
+    font-size: 24px;
+    margin-bottom:30px;
+}
+.doc-head a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding:15px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.doc-head .version{
+    margin: 30px 0;
+    font-size: 14px;
+    color: #9783b9;
+}
+.round{
+    margin: 0 auto;
+    text-align: center;
+    width: 1170px;
+    margin-top: 100px;
+}
+.round .ttitle{
+    font-size: 40px;
+    font-weight: 400;
+    color: #333;
+}
+.round .ahead{
+    max-width: 80%;
+    color: #333;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 21px;
+}
+.line{
+    width: 100px;
+    margin: 40px auto;
+    height: 1px;
+    background: #f00;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.round ul{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0;
+}
+.round li{
+    width: 33.3333%;
+    float: left;
+    list-style: none;
+   padding: 0 15px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.round li img{
+    width: 100%;
+    height: 100%;
+}
+.round li h3{
+    font-size: 24px;
+    color: #333;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.round li p{
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    box-sizing: border-box;
+}
+.line{
+    width: 100px;
+    margin: 40px auto;
+    height: 1px;
+    background: #f00;
+}
+.round .middle{
+    max-width: 80%;
+    color: #333;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+.round a{
+    text-decoration: none;
+    color: #563d7c;
+    border: 1px solid #563d7c;
+    padding:10px 16px;
+    font-size: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.around{
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    width: 1170px;
+}
+.around .ttitle{
+    font-size: 40px;
+    font-weight: 400;
+    color: #333;
+}
+.around .ahead{
+    width: 758px;
+    color: #333;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 21px;
+}
+.around .line{
+    width: 100px;
+    margin: 40px auto;
+    height: 1px;
+    background: #f00;
+}
+.around img{
+    float: left;
+    width: 25%;
+}
+.around .middle{
+    max-width: 80%;
+    color: #333;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+.around a{
+    text-decoration: none;
+    color: #563d7c;
+    border: 1px solid #563d7c;
+    padding:10px 16px;
+    font-size: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.foot{
+    padding: 50px 0;
+    margin-top: 100px;
+    background-color: #2a2730;
+}
+.footstep{
+        margin-bottom: 20px;    
+}
+.foot li{
+        list-style-type: none;
+}
+.footstep li a{
+    text-decoration: none;
+    padding: 15px;
+    line-height: 1.4287743;
+    color: #fff;
+    font-size: 14px;
+}
+.foot p{
+    color: #99979c;
+    font-size: 14px;
+    padding-left: 40px;
+    margin-left: 15px;
+}
+.foot p a{
+    color: #fff;
+    text-decoration: none;
+}
+

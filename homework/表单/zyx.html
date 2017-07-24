@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/zyx.css">
+</head>
+<body>
+<form action="" method="get">
+    <div>
+          <label for="username"> 用户名:</label>
+        <input type="text" name="user" id="username">
+<!--
+        type：输入框的 类型
+        name:这个输入框的名字，一般name在一个form中不能重复，checkbox除外
+        id：给input起一个唯一的名字。
+        value：表示默认的值
+        -->
+
+        <br>
+        <label for="password"> 密码:</label>
+        <input type="password" name="pass" id="password">
+        </br>
+
+    </div>
+    <label for="sex"> 性别:</label>
+    <input type="radio" name="sex" value="man" id="sex" checked="checked"/>男
+    <input type="radio" name="sex" value="woman" />女
+    <br>
+    <label for=""> 爱好:</label>
+    <input type="checkbox" name="h[]"  id="" />篮球
+    <input type="checkbox" name="h[]"  id="" />足球
+    <input type="checkbox" name="h[]" id="" />乒乓球
+    </br>
+
+
+    <input type="submit" value="提交">
+    <input type="button" value="普通按钮">
+    <button>普通按钮</button>
+
+    <input type="reset" value="重置">
+    <br>
+    <label for="password"> 密码:</label><input type="month" name="pass" id="password" />
+    </br>
+
+
+
+    <div class="line"></div>
+
+
+
+    <!--
+    text 文本输入框
+    password 密码输入框
+    radio:单选值，需要写入value的值，单选值和name值必须一致
+    checkbox:多选框，name值为：名字+[] 如：h[],
+    submit：提交按钮
+    reset：将输入框的内容进行初始化
+    checked:表示默认选中
+    -->
+
+
+</form>
+
+</body>
+</html>

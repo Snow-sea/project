@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+<form action="">
+    <div class="con">
+        <div class="bg">
+            <div class="head" id="header">
+                <a href=""class="on">快速登录</a>
+                <a class="unon">快速注册</a>
+            </div>
+            <div class="line"></div>
+            <ul class="onon clear">
+                <li>快速注册请注意格式</li>
+                <li>
+                        <label for="username">用户名：</label>
+                        <input type="text" name="user" id="username" />
+                </li>
+                <li>
+                        <label for="password">密码：</label>
+                        <input type="password" name="pw" id="password" />
+                </li>
+                <li>
+                        <label for="password">确认密码：</label>
+                        <input type="password" name="pw" id="password" />
+                </li>
+                <li>
+                        <label >QQ：</label>
+                        <input type="text" name="qq" id="" />
+                <li>
+               <li>
+                    <label for=""></label>
+                    <input type="submit" value="同意协议并注册"><a href="">注册协议</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</form>
+
+
+<script>
+
+    // 单行注释
+    /*多行注释
+    驼峰命名法
+    获取div 然后获取header*/
+
+    var header=document.getElementById("header");
+   var a=header.getElementsByTagName("a");
+   console.log(a);
+</script>
+
+</body>
+</html>
